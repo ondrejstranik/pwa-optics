@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 2em;
     height: 90vh;
-    background: url(../img/icon.png) 95% 95% no-repeat;
+    background: url(../img/manifest-icon-512.maskable.png) 95% 95% no-repeat;
     background-size: 20vh;
 }
 h1 {
@@ -19,4 +19,11 @@ p {
 }
 a {
     color: #369;
+}
+.my-style {
+    font-size:50px;
+    margin-left: 10px
+}
+.riinput {
+    width: 60px
 }

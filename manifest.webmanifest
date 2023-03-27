@@ -1,17 +1,36 @@
 {
-  "name": "Github Page PWA",
-  "short_name": "GPPWA",
-  "description": "Github Page as a Progressive Web App",
+  "name": "PWA for optical lab",
+  "short_name": "PWAOL",
+  "description": "Progressive Web App for calculation of reflection optical losses",
   "scope": "/pwa-optics/",
   "start_url": "/pwa-optics/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "display": "standalone", 
+  "display": "standalone",
   "icons": [
-      {
-        "src": "/pwa-optics/img/icon.png",
-        "type": "image/png",
-        "sizes": "700x700"
-      }
+    {
+      "src": "img/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
