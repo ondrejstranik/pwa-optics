@@ -1,5 +1,5 @@
-var GHPATH = '/github-page-pwa';
-var APP_PREFIX = 'gppwa_';
+var GHPATH = '/pwa-optics';
+var APP_PREFIX = 'pwao_';
 var VERSION = 'version_002';
 var URLS = [    
   `${GHPATH}/`,
