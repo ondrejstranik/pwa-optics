@@ -150,7 +150,8 @@ mykey = Object.keys(refindexes)
                         noutr = ninr_original
                         nouti = nini_original
                         mylocT *= (1- R(ninr,nini,noutr,nouti))
-
+                        ninr = noutr
+                        nini = nouti
                     } else {
                         mylocT *= R(ninr,nini,noutr,nouti)**2
                     }
