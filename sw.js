@@ -6,7 +6,8 @@ var URLS = [
   `${GHPATH}/index.html`,
   `${GHPATH}/css/styles.css`,
   `${GHPATH}/img/icon_hl.png`,
-  `${GHPATH}/js/app.js`
+  `${GHPATH}/js/app.js`,
+  `https://unpkg.com/mathjs/lib/browser/math.js`
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION
