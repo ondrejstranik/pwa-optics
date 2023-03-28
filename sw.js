@@ -1,6 +1,6 @@
 var GHPATH = '/pwa-optics';
 var APP_PREFIX = 'pwao_';
-var VERSION = 'version_006';
+var VERSION = 'version_007';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
